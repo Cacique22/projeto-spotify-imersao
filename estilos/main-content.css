@@ -10,9 +10,11 @@
 
 .main-container{
     max-width: 80vw;
-    height: 100vh;
+    height: 20vh;
     margin-left: 320px;
     margin-right: 56px;
+    position: static;
+
 }
 
 .header__navigation{
@@ -29,6 +31,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 .header__navigation .navigation .arrow-left{
     margin-right: 1.25rem;
@@ -45,11 +48,14 @@
     border-radius: 50%;
     border: none;
     cursor: pointer;
+
 }
 
 .header__login{
     display: flex;
     align-items: center;
+    cursor: pointer;
+
 }
 
 .header__search{
@@ -63,6 +69,7 @@
     border: 1px solid transparent;
     position: relative;
     left: 13%;
+
 }
 
 .header__search img{
@@ -91,6 +98,8 @@
     border: none;
     position: relative;
     left: 92%;
+    cursor: pointer;
+
 
 }
 
@@ -104,4 +113,18 @@
     border-radius: 40px;
     position: relative;
     left: 98%;
+    cursor: pointer;
+
 }
+
+.conteudo{
+    margin-left: 340px;
+    margin-right: 56px;
+    position: fixed;
+}
+
+iframe{
+    width: 70vw;
+    height: 450px;
+}
+
