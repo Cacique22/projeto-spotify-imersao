@@ -44,12 +44,13 @@ body{
     color: var(--color-cinza);
     text-decoration: none;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15 
+    px;
     font-family: var(--font--dm-sans);
 }
 
 .sidebar-mini ul li{
-    padding: 10px 0;
+    padding: 20px 0px;
 }
 
 .sidebar-mini_navigation {
@@ -78,7 +79,7 @@ body{
     color: var(--color-cinza);
     background-color: transparent;
     border: 0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     font-family: var(--font--dm-sans);
     text-align: center;
@@ -90,14 +91,14 @@ body{
 }
 
 .library-mini .library-mini__button .fa{
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 10px;
     font-weight: 300;
-    padding-right: 8px;
+    padding-right: 2px;
 }
 
 .library-mini .library-mini__content .fa-plus{
-    margin: 24px 10px;    
+    margin: 24px 2px;    
     cursor: pointer;
 
 }
