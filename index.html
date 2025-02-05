@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="/assets/icons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./estilos/vars.css">
     <link rel="stylesheet" href="estilos/main-content.css   ">
+    <link rel="stylesheet" href="estilos/media-quarys.css" >
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
@@ -80,17 +81,77 @@
                     <button class="arrow-left"><img src="assets/icons/small-left.png" alt="seta esquerda"></button>
                     <button class="arrow-right"><img src="assets/icons/small-right.png" alt="seta direita"></button>
                 </div>
+                <div class="logo-mini">
+                    <a href=""><img src="assets/icons/icons8-spotify-100.png" alt=""></a>
+                </div>
+                <div class="menu" id="menu" onclick="clickMenu()">
+                    <button><img src="assets/icons/icons8-cardápio-25.png" alt=""></button>
+                </div>
                 <div class="header__search">
                     <img src="assets/icons/search.png" alt="">
                     <input id="search-input" type="text" placeholder="O que você quer ouvir?" maxlength="800">
                 </div>
                 <div class="header__login">
+                    <button class="login-cel"> </button>
                     <button class="subscribe">Inscreva-se</button>
                     <button class="login">Entrar</button>
                 </div>
             </nav>
         </div>
+        <div id="menuaberto">
+            
+    <div class="sidebar-mini">
 
+        <nav class="sidebar-mini_navigation">
+            <div>
+                <ul>
+                    <li><a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Inicio</span></a>
+                    </li>
+
+                    <li><a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="library-mini">
+            <div class="library-mini__content">
+                <button class="library-mini__button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua Biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+        </div>
+
+        <section class="section-mini-playlist">
+            <div class="section-mini-playlist__content">
+                <span class="text-mini title-mini">Crie sua primeira playlist</span>
+                <span class="text-mini subtitle-mini">É fácil, vamos te ajudar.</span>
+                <button class="section-mini-playlist__button">
+                    <span>Criar PlayList</span>
+                </button>
+            </div>
+        </section>
+        
+        <div class="cookies-mini">
+            <a href="">Co   okies</a>
+        </div>
+
+        <div class="languages-mini">
+            <button class="languages-mini__button">
+                <span class="fa fa-globe"></span>
+                <span>Português do Brasil</span>
+            </button>
+        </div>
+    </div>
+
+
+        </div>
         <div class="conteudo">
             <iframe src="pagina-conteudo.html" frameborder="0"></iframe>
         </div>
@@ -106,6 +167,18 @@
         <div class="footer-button"><button>Inscreva-se grátis</button></div>
     </footer>
 
+    <script>
+
+        function clickMenu(){
+            if(menuaberto.style.display == "none"){
+                menuaberto.style.display = 'flex'
+            } 
+            else{
+                menuaberto.style.display = 'none'  
+            }
+        }
+
+    </script>
 
 
 

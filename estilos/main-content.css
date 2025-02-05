@@ -17,6 +17,20 @@
 
 }
 
+
+.header__login .login-cel{
+    display: none;
+}
+
+.header__navigation .menu{
+    display: none;
+}
+
+.header__navigation .logo-mini{
+    display: none;
+}
+
+
 .header__navigation{
     display: flex;
     justify-content: space-between;

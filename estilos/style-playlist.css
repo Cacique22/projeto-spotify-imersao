@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.playlists{
+    background: scroll;
+}
+
+.playlists img{
+    min-width: 160px;
+    min-height: 160px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+}
+.playlists > .pl{
+    max-width: 200px;
+    display: inline-block;
+    margin: 8px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    color: #242424;
+}
+    
