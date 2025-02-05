@@ -17,6 +17,10 @@
 
 }
 
+div#menuaberto{
+    display: none;
+}
+
 
 .header__login .login-cel{
     display: none;

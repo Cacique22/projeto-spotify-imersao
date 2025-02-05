@@ -364,6 +364,9 @@ footer {
     background-repeat: no-repeat;
 
 }
+div#menuaberto{
+    display: none;
+}
 
 .header__login .subscribe{
     display: none;
