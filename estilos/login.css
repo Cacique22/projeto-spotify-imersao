@@ -74,6 +74,10 @@ button p{
     width: 100%;
 }
 
+button:hover{
+    background-color: var(--color-cinza-intermediario);
+}
+
 .telefone{
     bottom: 0%;
     left: 7.5%;
@@ -109,6 +113,10 @@ button p{
     text-align: center;
     overflow: hidden;
     
+}
+
+.login .emailname-login:hover, .senha-login:hover{
+    background-color: var(--color-cinza-intermediario);
 }
 
 .login{
