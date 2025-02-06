@@ -155,6 +155,15 @@ body{
     margin: 25px 25px;
 }
 
+.login a, .subscribe a{
+    text-decoration: none;
+    color: white;
+}
+
+.login > a{
+    color: black;
+}
+
 .sidebar .cookies a{
     color: var(--color-cinza);
     font-weight: 500;
