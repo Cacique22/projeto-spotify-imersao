@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/login.css">
+    <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/reset.css">
+
+</head>
+<body>
+
+    <main class="contas__content">
+        <article class="login-contas">
+            <img class="logo" src="assets/icons/icons8-spotify-50.png" alt="logo spotify">
+            <h1>Entrar no spotify</h1>
+
+            <div class="google-login">
+                <button>
+                    <img src="assets/icons/icons8-google-logo-48.png" alt="">
+                    <p class="google">Continuar com o Google</p>
+                </button>
+            </div>
+            <div class="facebook-login">
+                <button>
+                    <img src="assets/icons/icons8-facebook-48.png" alt="">
+                    <p class="facebook">Continuar com o Facebook</p>
+                </button>
+            </div>
+            <div class="apple-login">
+                <button>
+                    <img src="assets/icons/icons8-apple-50.png" alt="">
+                    <p class="apple">Continuar com a Apple</p>
+                </button>
+            </div>
+            <div class="numero-login">
+                <button>
+                    <p class="telefone">Continuar com o número de telefone</p>
+                </button>
+            </div>
+        </article>
+
+        <article class="login">
+            <form action="cadastro.php" method="post">
+                <p class="txtemail">E-mail ou nome de usuário</p>
+                <p class="emailname-login"><label for="iemailname"></label> <input type="email text" name="email-name" id="iemailname"></p>
+                <p class="txtsenha">Senha</p>
+                <p class="senha-login"><label for="isenha"></label> <input type="password" name="senha" required minlength="8" id="isenha"></p>
+                <input class="enviar" type="submit" value="Entrar">
+            </form>
+
+            <a class="esqueceu-senha" href="#"><p>Esqueceu a senha?</p></a>
+
+            <div class="sem-conta">
+                <p class="nao-tem">Não tem uma conta?</p>
+                <a href="#"><p class="inscreva-se">Inscrever-se no Spotify</p></a>
+            </div>
+
+        </article>
+
+    </main>
+    
+</body>
+</html>
